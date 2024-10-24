@@ -2,58 +2,20 @@
 
 Create your hown media server with Docker
 
-<div style="text-align: center">
-    <img src="https://jellyfin.org/images/logo.svg" width="300" height="100">
-</div> 
-
-
-<div style="text-align: center"> 
-    <img src="https://raw.githubusercontent.com/Fallenbagel/jellyseerr/develop/public/logo_full.svg" width="300" height="100"> 
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png" width="300" height="100">
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://warlord0blog.files.wordpress.com/2022/01/radarr_logo-1.png" width="300" height="100">
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://avatars.githubusercontent.com/u/15383019?s=280&v=4" width="100" height="100">
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://avatars.githubusercontent.com/u/75936191?v=4" width="200" height="200">
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://prowlarr.com/logo/128.png" width="100" height="100">
-</div>
-
-
-<div style="text-align: center">
-    <img src="https://media.imgcdn.org/repo/2023/11/deluge-bittorrent-client/65672ad6956a6-deluge-bittorrent-client-Icon.webp" width="100" height="100">
-</div>
-
----
-
-# Prerequisites 
-
 ## Docker
 
-To install Docker on your system, you can use the following script:
+Install Docker
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
+
+OR
+
+apt install docker.io
+apt install docker-compose
 ```
 
-### Using Docker Compose
+### Install with docker compose
 
 ```bash
 docker-compose up -d
